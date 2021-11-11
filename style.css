@@ -1,0 +1,14 @@
+/*test add new .css file jpowell 11/11/2021*/
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
