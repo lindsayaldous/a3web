@@ -1,2 +1,2 @@
-# a3web --> Group 16 Workload Distribution Plan
+# a3web --> Group 16
 
