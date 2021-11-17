@@ -1,10 +1,14 @@
 /*test add new .css file jpowell 11/11/2021*/
+
+/* css design theme: black, white, blue */
+/* looking into template options */
+
 body {
     background-color: lightblue;
   }
   
   h1 {
-    color: white;
+    color: black;
     text-align: center;
   }
   
