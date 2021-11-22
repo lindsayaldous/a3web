@@ -6,8 +6,6 @@ Light Grey #EDECE8
 Ivory #FFFCF6
  */
 
-/* as of 3:50pm on Mon Nov 22, still working on adding the header css - something isn't working right - L */
-
 body, html {
     background-color: lightblue;
     /* necessary attributes for header section */
