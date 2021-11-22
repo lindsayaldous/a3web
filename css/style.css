@@ -16,7 +16,7 @@ body, html {
   }
   
   h1 {
-    color: black;
+    color: white;
     text-align: center;
   }
   
@@ -33,18 +33,14 @@ header {
 .header-image {
   /* likely a temporary image - picked an image with many shades of blue and white, but need to dig for one that fits our colour scheme more  */
   background-image:  url("https://raw.githubusercontent.com/lindsayaldous/lindsayaldous.github.io/main/images/IMG_0057.JPG");
-  /* remove this from between background-image: and url --> linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), */
-
   /* Dictates how much of the header the image takes up */
   height: 100%;
-
   /* from w3 schools - "Position and center the image to scale nicely on all screens" - need to test this further */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-
 /* Place text in the middle of the image - doesn't play nicely with window re-sizing, needs tweaks */
 .header-text {
   text-align: center;
