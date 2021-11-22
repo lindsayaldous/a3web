@@ -1,8 +1,16 @@
 /* css design theme: black, white, blue */
-/* looking into template options - might opt for tweaking a downloaded template */
+/* Dark Blue #034488
+Light Blue #178FD6
+Blue Grey #CCDDE8
+Light Grey #EDECE8
+Ivory #FFFCF6
+ */
 
 body {
     background-color: lightblue;
+    /* necessary attributes for header section */
+    height: 100%;
+    margin: 0px;
   }
   
   h1 {
@@ -13,4 +21,33 @@ body {
   p {
     font-family: verdana;
     font-size: 20px;
+  }
+
+
+/* combined CSS from Assignment 2 with additional adjustments from w3schools page on Hero Images */
+header {   
+  height: 20%;		/* dictates how much of the page the header section takes up */
+  } 
+  .header-image {
+    /* likely a temporary image - picked an image with many shades of blue and white, but need to dig for one that fits our colour scheme more closely */
+    background-image:  url("https://raw.githubusercontent.com/lindsayaldous/lindsayaldous.github.io/main/images/IMG_0057.JPG");
+
+    /* Dictates how much of the header the image takes up */
+    height: 100%;
+
+    /* from w3 schools - "Position and center the image to scale nicely on all screens" - need to test this further */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  /* Place text in the middle of the image - doesn't play nicely with window re-sizing, needs tweaks */
+  .header-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
   }
