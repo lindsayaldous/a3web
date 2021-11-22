@@ -6,7 +6,7 @@ Light Grey #EDECE8
 Ivory #FFFCF6
  */
 
-body {
+body, html {
     background-color: lightblue;
     /* necessary attributes for header section */
     height: 100%;
