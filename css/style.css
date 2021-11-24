@@ -267,6 +267,12 @@ input[type=checkbox]{
     padding: 12px 36px;
     margin: 2.5rem 0;
 }
+    /* works */
+
+#works {
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
 
  
 
