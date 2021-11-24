@@ -271,7 +271,7 @@ input[type=checkbox]{
  
     /* works */
 
-#works {
+.works {
     padding: 5vw 8vw 0 8vw;
     text-align: center;
 }
