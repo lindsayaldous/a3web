@@ -1,4 +1,4 @@
-# a3web --> Group 15 Workload Distribution Plan
+# a3web --> Group 15
 
 ## Janelli Powell
 ## Lindsay Aldous
