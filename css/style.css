@@ -276,7 +276,7 @@ input[type=checkbox]{
     text-align: center;
 }
 /* footer */
-footer {
+#footer {
   text-align: center;
   padding: 3px;
   background-color: yellow;
