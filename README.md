@@ -17,7 +17,11 @@
 - [ ] < footer > - Visakh
 
 ### Final Submission:
-- [ ] About Us / Meet the Team / Our Services / Contact Us page (home page)
+- [ ] Home Page
+    - [ ] About Us
+    - [ ] Our Services
+    - [ ] Meet the Team 
+    - [ ] Contact Us
 - [ ] Janelli's Portfolio
 - [ ] Sneha's Portfolio
 - [ ] Visakh's Portfolio
