@@ -6,6 +6,10 @@ Light Grey #EDECE8
 Ivory #FFFCF6
  */
 
+:root{
+  --orange:#ffa500;
+}
+
 body, html {
     background-color: white;
     /* necessary attributes for header section */
