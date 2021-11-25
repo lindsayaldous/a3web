@@ -263,13 +263,13 @@ input[type=checkbox]{
 
 .footer{
   background:#333;
-  margin: 80px;
 }
 
 .footer .box-container{
   display: flex;
   flex-wrap: wrap;
   gap:1.5rem;
+  margin: 80px;
 }
 
 
