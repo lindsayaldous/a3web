@@ -176,7 +176,7 @@ input[type=checkbox]{
 }
 /*end JPowell 11/22/2021 Navigation Bar Style*/
 /********************************************************************************************************/
-/*Main section*/
+/*Main section - Sneha Mohan*/
 .main__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -269,9 +269,5 @@ input[type=checkbox]{
     margin: 2.5rem 0;
 }
  
-    /* works */
-#works {
-    padding: 5vw 8vw 0 8vw;
-    text-align: center;
-}
+/* Main Section Ends */
 
