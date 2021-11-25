@@ -17,11 +17,12 @@
 - [ ] < footer > - Visakh
 
 ### Final Submission:
-- [ ] About Us page (home page)
-- [ ] Meet the Team
-- [ ] Contact Us
-- [ ] Our Services
-- [ ] 
+- [ ] About Us / Meet the Team / Our Services / Contact Us page (home page)
+- [ ] Janelli's Portfolio
+- [ ] Sneha's Portfolio
+- [ ] Visakh's Portfolio
+- [ ] Praveen's Portfolio
+- [ ] Lindsay's Portfolio
 
 ## Deadlines:
 - [X] Submit template by end of Week 12 lab (Nov 25)
