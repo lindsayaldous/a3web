@@ -277,7 +277,7 @@ input[type=checkbox]{
 }
 
 /* footer */
-.footer {
+footer {
   font-size: 80%;
   padding: 7px 0px 0px 20px;
   position: fixed;
