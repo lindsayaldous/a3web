@@ -224,7 +224,7 @@ input[type=checkbox]{
 
 .main__btn a:hover {
     color: black;
-    backgroud: white;
+    background: white;
 }
 
 .main__img--container {
@@ -275,10 +275,3 @@ input[type=checkbox]{
     padding: 5vw 8vw 0 8vw;
     text-align: center;
 }
-
- 
-
-
-
-
-
