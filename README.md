@@ -18,7 +18,7 @@
 - (aiming to include small JS component in each)
 
 ### Final Submission:
-- [ ] Home Page
+- Home Page
     - [ ] About Us
     - [ ] Our Services
     - [ ] Meet the Team 
