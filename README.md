@@ -8,4 +8,4 @@ Sneha Mohan
 Visakh Vijayan
 
 ## Tasks
-- [ ] Submit template by end of Week 12 lab
+- [X] Submit template by end of Week 12 lab
