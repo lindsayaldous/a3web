@@ -9,11 +9,11 @@
 
 ## Tasks:
 ### Template
-- [ ] <head> - Praveen
-- [ ] <navbar> - Janelli
-- [ ] <header> - Lindsay
-- [ ] <main> - Sneha
-- [ ] <footer> - Visakh
+- [ ] < head > - Praveen
+- [ ] < navbar > - Janelli
+- [ ] < header > - Lindsay
+- [ ] < main > - Sneha
+- [ ] < footer > - Visakh
 ### Final Submission:
 - [ ]
 
