@@ -15,7 +15,11 @@
 - [ ] < main > - Sneha
 - [ ] < footer > - Visakh
 ### Final Submission:
-- [ ]
+- [ ] About Us page (home page)
+- [ ] Meet the Team
+- [ ] Contact Us
+- [ ] Our Services
+- [ ] 
 
 ## Deadlines:
 - [X] Submit template by end of Week 12 lab (Nov 25)
