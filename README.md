@@ -7,6 +7,8 @@
 - Sneha Mohan
 - Visakh Vijayan
 
+*** meeting Sat Nov 25 to finish this work distribution plan ***
+
 ## Tasks:
 
 ### Template Components
