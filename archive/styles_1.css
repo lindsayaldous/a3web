@@ -258,12 +258,6 @@ input[type=checkbox]{
     margin-top: 2rem;
 }
 
-@media screen and (max-width: 480px) {
-    .main__content h2 {
-        font-size: 2rem;
-        margin-top: 3rem;
-}
-
 .main__btn {
     padding: 12px 36px;
     margin: 2.5rem 0;
