@@ -276,10 +276,10 @@ input[type=checkbox]{
     text-align: center;
 }
 /* footer */
-#footer {
+.footer {
   text-align: center;
   padding: 3px;
-  background-color: yellow;
+  background-color: rgb(46, 105, 214);
   color: white;
 }
 
