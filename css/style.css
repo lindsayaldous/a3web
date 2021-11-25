@@ -55,98 +55,122 @@ header {
 
 
 /********************************************************************************************************/
-/*start JPowell 11/22/2021 Navigation Bar Style*/
+/*Janelli Powell | November 18, 2021 | My assigned section: Navigation Bar Style*/
+/*Added comments, fixed media query, and adjust the dropdown menu after our Template Evaluation | 11/25/2021 */
 /*This is universal selector*/
-* {
+*{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: sans-serif;
-}
-a {
-  text-decoration: none;
-}
-li {
-  list-style: none;
+  box-sizing: border-box;/*The width and height values apply to the element's content and it's padding */
 }
 
-/* NavBar Style*/
+/*declaration for all "navbar" class*/
 .navbar {
-  display: flex;
+  display: flex; /*I prefer flex that grid it's simple but powerful. The flow of the items can be modified easily, you can even reverse them.*/
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color:#034488;
+  background-color:#034488; /*This color was inspired by "Santorini", always wanted to go there*/
   color: #fff;
+  font-family: sans-serif;
 }
+
+/*declaration for all list child of class "navbar"*/
+.navbar li{
+  list-style: none; /*This is to remove all the syle like bullets, underlined text, etc...*/
+}
+
+/*declaration for all links child of class "nav-links"*/
 .nav-links a {
+  text-decoration: none; 
   color: #fff;
 }
 
 /* Future Logo Style */
-.logo {
+.logo 
+{
   font-size: 32px;
 }
 
-/* NavBar Menu */
-.menu {
-  display: flex;
-  gap: 1em;
-  font-size: 18px;
+/* Navivation Bar Menu */
+.menu{
+  display: flex; 
+  gap: 1em; /*This will set the row and column gap between the menu list. And oh, 1em is equivalent to 16px*/
+  font-size: 16px; 
 }
-.menu li:hover {
+
+/*declaration for list child of class "menu" style when mouse is over it*/
+.menu li:hover{
   background-color: #178FD6;
-  border-radius: 5px;
-  transition: 0.3s ease;
+  border-radius: 8px; /*rounded corners*/
+  /*Transition effect with a duration of 1 second. 
+  The "ease" property makes it start slow, then fast then end slowly. https://www.w3schools.com/css/css3_transitions.asp*/
+  transition: 1s ease;
 }
-.menu li {
+
+/*declaration for all list child of class "menu"*/
+.menu li{
   padding: 5px 14px;
 }
 
 /* Dropdown Menu Style */
-.services {
+/*Setting the "service menu" to "relative" to reserve the space for the dropdown list*/
+.services{
   position: relative; 
 }
-.dropdown {
+
+/*declaration for all elements with class "dropdown"*/
+.dropdown{
   background-color: rgb(4, 79, 146); 
   padding: 1em 0;
-  position: absolute; 
-  display: none;
-  border-radius: 8px;
-  top: 35px;
+  position: absolute; /*The element is positioned relative to service menu*/
+  display: none; /*This is to hind the dropdown menu (: */
+  border-radius: 8px; /*rounded corners*/
+  top: 30px;
+  font-size: 14px;
 }
+/*This is an adjacent sibling combinator (+). It separates two selectors and matches the second element only if it immediately follow the first element, and both are children of the same parent element*/
+/*In this instance, it's the LIST that come immediately after "dropdown" list child of class https://www.w3schools.com/css/css_combinators.asp*/
 .dropdown li + li {
   margin-top: 10px;
 }
-.dropdown li {
+
+/*declaration for all list child of class "dropdown"*/
+.dropdown li{
   padding: 0.5em 1em;
   width: 8em;
   text-align: center;
 }
+
+/*declaration for list child of class "dropdown" style when mouse is over it*/
 .dropdown li:hover {
   background-color: #178FD6;
 }
+
+/*declaration all class name "dropdown" that are decendents of the calss "services" where mouse is over it */
 .services:hover .dropdown {
-display: block;
+  display: block;
 }
 
 /*Responsive NavBar Menu*/
+/*This is a hidden checkbox. This is checked when user is using smaller screens like mobile. 
+/*I learned this trick from https://css-tricks.com/the-checkbox-hack/*/ 
 /* Checkbox Hack */
 input[type=checkbox]{
   display: none;
 } 
-/*Hamburger Menu*/
-.hamburger {
+
+/*Hamburger Menu ☰ icon*/
+.hamburger{
   display: none;
   font-size: 24px;
-  user-select: none;
+  user-select: none; /*this is so the user won't be able to select*/
 }
 
-/* Responsive to */
-@media (max-width: 768px) {
-  .menu { 
+/*This is a Media block. The media query  will be applied to any device that has a window browser size of 1024px or smaller (Tablets, Ipads, Mobile Phones)*/
+/* Responsive to smaller screens - will have to set hamburger for tablet/ipad size screens as well.*/
+@media (max-width: 1024px){
+  .menu{ 
       display:none;
       position: absolute;
       background-color:#034488;
@@ -155,31 +179,42 @@ input[type=checkbox]{
       text-align: center;
       padding: 16px 0;
   }
-  .menu li:hover {
+
+  /*declaration for list child of class "menu" style when mouse is over it*/
+  .menu li:hover{
       display: inline-block;
       background-color:#178FD6;
-      transition: 0.3s ease;
+      transition: 0.5s ease;
   }
-  .menu li + li {
+
+  /*declaration for all list child of class "menu"*/
+  /*Another adjacent sibling combinator (+)*/
+  /*In this instance, it's the LIST that come immediately after "menu" list child of class.*/
+  .menu li + li{
       margin-top: 12px;
   }
+
+  /*declaration all "menu" class elements that are next sibling of the hidden input checkbox.*/
+  /*This is a general-sibling combinator tilde (~). It separates two compound selectors. https://www.w3schools.com/css/css_combinators.asp*/
+  /*"checked" means toggled to an on state*/
   input[type=checkbox]:checked ~ .menu{
       display: block;
   }
-  .hamburger {
+
+  /*I'm using "block" as display option to as I want the hamburger icon to take the whole 24px witdth.*/
+  .hamburger{
       display: block;
   }
-  .dropdown {
-      left: 50%;
-      top: 30px;
-      transform: translateX(35%);
-  }
-  .dropdown li:hover {
+
+  /*declaration for list child of class "dropdown" style when mouse is over it*/
+  .dropdown li:hover{
       background-color: #178FD6;
   }
 }
-/*end JPowell 11/22/2021 Navigation Bar Style*/
+/*End JPowell 11/22/2021 Navigation Bar Style*/
 /********************************************************************************************************/
+
+
 /*Main section - Sneha Mohan*/
 .main__container {
     display: grid;
