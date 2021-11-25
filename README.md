@@ -39,6 +39,6 @@
 - [ ] Check that there are no < style > tags
 
 ## Deadlines:
-- [X] Submit template by end of Week 12 lab (Nov 25)
+- [X] <b> Submit template by end of Week 12 lab (Nov 25) <b>
 - [ ] Submit this updated workload distribution plan ASAP
 - [ ] Submit final website - Dec 8
