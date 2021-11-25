@@ -8,12 +8,14 @@
 - Visakh Vijayan
 
 ## Tasks:
+
 ### Template
 - [ ] < head > - Praveen
 - [ ] < navbar > - Janelli
 - [ ] < header > - Lindsay
 - [ ] < main > - Sneha
 - [ ] < footer > - Visakh
+
 ### Final Submission:
 - [ ] About Us page (home page)
 - [ ] Meet the Team
