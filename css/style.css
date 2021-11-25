@@ -140,6 +140,17 @@ input[type=checkbox]{
   user-select: none;
 }
 
+/* footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(121, 171, 228);
+  color: white;
+  text-align: center;
+}
+
 /* Responsive to */
 @media (max-width: 768px) {
   .menu { 
@@ -276,13 +287,4 @@ input[type=checkbox]{
     text-align: center;
 }
 
-/* footer */
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: rgb(121, 171, 228);
-  color: white;
-  text-align: center;
-}
+
