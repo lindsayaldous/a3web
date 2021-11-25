@@ -275,3 +275,16 @@ input[type=checkbox]{
     padding: 5vw 8vw 0 8vw;
     text-align: center;
 }
+
+/* footer */
+.footer {
+  font-size: 80%;
+  padding: 7px 0px 0px 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(121, 171, 228);
+  color: white;
+  text-align: center;
+}
