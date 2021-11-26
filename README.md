@@ -8,6 +8,10 @@
 - Visakh Vijayan
 
 *** meeting 10am EST on Sat Nov 25 to finish this work distribution plan ***
+- outstanding changes to template (logo, CSS tweaks, robust comments, etc.)
+- assigning home page components
+- where/how to incorporate JS
+- internal deadlines for template changes, final copies of webpages, pre-submission checklist
 
 ## Tasks:
 
@@ -17,7 +21,6 @@
 - [ ] < header > - Lindsay
 - [ ] < main > - Sneha
 - [ ] < footer > - Visakh
-- (aiming to include small JS component in each)
 
 ### Final Submission:
 - Home Page
@@ -36,7 +39,7 @@
 - [ ] Check for relative paths - absolute URLS only allowed for external assets or links
 - [ ] Check for duplicated IDs on a single HTML page
 - [ ] Check for sufficient comments across all pages - name of author, explaining each section, any references used for inspiration, details of what code section does
-- [ ] Check for code consistency
+- [ ] Check for code consistency (particularly with CSS)
 - [ ] Check that there are no < style > tags
 - [ ] Run each page through the corresponding HTML/CSS/JS error checker
 - [ ] Ensure each group member is hosting a copy of the final website on their repository
