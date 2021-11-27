@@ -7,7 +7,7 @@
 - Sneha Mohan
 - Visakh Vijayan
 
-*** meeting 10am EST on Sat Nov 25 to finish this work distribution plan ***
+*** meeting 10am EST on Sat Nov 27 to finish this work distribution plan ***
 - outstanding changes to template (logo, CSS tweaks, robust comments, etc.)
 - assigning home page components
 - where/how to incorporate JS
