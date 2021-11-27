@@ -16,11 +16,11 @@
 ## Tasks:
 
 ### Template Components
-- [ ] < head > - Praveen
-- [ ] < navbar > - Janelli
-- [ ] < header > - Lindsay
-- [ ] < main > - Sneha
-- [ ] < footer > - Visakh
+- [X] < head > - Praveen
+- [X] < navbar > - Janelli
+- [X] < header > - Lindsay
+- [X] < main > - Sneha
+- [X] < footer > - Visakh
 
 ### Final Submission:
 - [ ] Home Page - About Us
@@ -45,7 +45,7 @@
 
 ## Deadlines:
 - [X] Submit template by end of Week 12 lab (Nov 25)
-- [ ] <b> Submit this updated workload distribution plan ASAP !!! </b>
+- [X] <b> Complete this updated workload distribution plan ASAP !!! </b>
 - [ ] Finish our assigned content pages by "end of day" Fri Dec 3
 - [ ] Complete shared components + fix any outstanding issues Dec 4 - 6
 - [ ] Submit final website end of day - Dec 8
