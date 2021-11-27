@@ -23,16 +23,15 @@
 - [ ] < footer > - Visakh
 
 ### Final Submission:
-- Home Page
-    - [ ] About Us
-    - [ ] Our Services
-    - [ ] Meet the Team 
-    - [ ] Contact Us
-- [ ] Janelli's Portfolio
-- [ ] Sneha's Portfolio
-- [ ] Visakh's Portfolio
-- [ ] Praveen's Portfolio
-- [ ] Lindsay's Portfolio
+- [ ] Home Page - About Us
+    - [ ] Testimonials (bottom of home page, in same HTML file) - each person writes up 1 pretend testimonial
+ - [ ] Meet the Team - under each team member, their contact info/LinkedIn - each person provide 1 image (real or fake) for themselves
+ - Our Services (brief overview of available services)
+    - [ ] Cartography ( + examples of work) - Lindsay
+    - [ ] Image Anaylsis ( + examples of work) - Visakh
+    - [ ] Geoprocessing ( + examples of work) - Janelli
+    - [ ] Spatial Analysis ( + examples of work) - Sneha
+- [ ] Contact Us - google maps API static map with office locations, links to email, possibly Survey123 form - Praveen
 
 ### Misc Tasks Before Final Submission:
 - [ ] Check for spelling errors and consistency in content
@@ -47,4 +46,6 @@
 ## Deadlines:
 - [X] Submit template by end of Week 12 lab (Nov 25)
 - [ ] <b> Submit this updated workload distribution plan ASAP !!! </b>
-- [ ] Submit final website - Dec 8
+- [ ] Finish our assigned content pages by "end of day" Fri Dec 3
+- [ ] Complete shared components + fix any outstanding issues Dec 4 - 6
+- [ ] Submit final website end of day - Dec 8
