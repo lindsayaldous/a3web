@@ -90,9 +90,16 @@ header {
 }
 
 /* Future Logo Style */
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #fff;
+  text-decoration: none; 
+}
 .logo img {
   width: 75px;
-  display: block;
+  display:inline-block;
+  vertical-align:middle;
 }
 
 
