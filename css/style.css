@@ -355,3 +355,131 @@ input[type=checkbox]{
 
  /* footer section ends */
  
+/* ******************************************************************************************* */
+/* Cartography page - description of service + slide deck of examples of work
+
+Last modified 2 Dec 2021 by L. Aldous                !!! Major WIP !!!  
+Considered improving on the image gallery from Assignment 2 with adjustments to accommodate 
+more varied images, but decided to try w3 schools responsive image slider to better showcase
+the maps and work in a JS component (hopefully) */
+/* https://www.w3schools.com/howto/howto_js_slideshow.asp */
+
+/* remaining tasks with this one:
+      - pick images, determine optimal size, resize, set IDs, add to images folder 
+      - finish adjusting operational CSS, read about/adjust the JS? also add to the separate JS file*/
+
+p.carto {
+  padding-top: 50px;
+  font-size: 16px;
+}
+
+/* Currently, this CSS is mostly the out-of-the-box stuff from w3 schools with the beginnings
+of my edits */
+
+/* * {box-sizing:border-box} */       /* removing this one seems to do nothing bad */
+
+/* Slideshow container */
+.carto-slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-bottom: 50px;     /* added this so the <br> could be removed */
+}
+
+/* Hide the images by default */         /* why is this a thing? I can't figure out how to work around it? */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #6a6af5;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;  /* what does ease mean? transition? */
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: #333;
+    }
+
+/* Caption text */
+.cartoCaption {
+  color: #333;
+  font-family: verdana;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;   /* what's this mean? */
+  width: 100%;
+  text-align: center;
+  /* font-weight: bold; */
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;   /* what's this one mean? */
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation    /* hoping to get rid of this! not a fan, and avoids the webkit thing */
+
+/*
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} */
+
+/* On smaller screens, decrease text size      /* might get rid of this? doesn't seem to do much */
+/*
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} */
+
+/* End of Cartography page */
+/* ******************************************************************************************* */
