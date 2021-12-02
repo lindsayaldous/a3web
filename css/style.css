@@ -73,7 +73,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color:#034488; /*This color was inspired by "Santorini", always wanted to go there*/
+  background-color:#333333; /*This color used to be blue "Santorini", modifying now to match with the footer*/
   color: #fff;
   font-family: sans-serif;
 }
@@ -90,10 +90,11 @@ header {
 }
 
 /* Future Logo Style */
-.logo 
-{
-  font-size: 32px;
+.logo img {
+  width: 75px;
+  display: block;
 }
+
 
 /* Navivation Bar Menu */
 .menu{
@@ -102,13 +103,13 @@ header {
   font-size: 16px; 
 }
 
-/*declaration for list child of class "menu" style when mouse is over it*/
-.menu li:hover{
-  background-color: #178FD6;
+/*declaration for list of links child of class "menu" style when mouse is over it*/
+.menu li a:hover{
+  color: #ffa500;
   border-radius: 8px; /*rounded corners*/
   /*Transition effect with a duration of 1 second. 
   The "ease" property makes it start slow, then fast then end slowly. https://www.w3schools.com/css/css3_transitions.asp*/
-  transition: 1s ease;
+  transition: 0.5s ease;
 }
 
 /*declaration for all list child of class "menu"*/
@@ -124,7 +125,7 @@ header {
 
 /*declaration for all elements with class "dropdown"*/
 .dropdown{
-  background-color: rgb(4, 79, 146); 
+  background-color: #3C3C3C; 
   padding: 1em 0;
   position: absolute; /*The element is positioned relative to service menu*/
   display: none; /*This is to hind the dropdown menu (: */
@@ -146,8 +147,8 @@ header {
 }
 
 /*declaration for list child of class "dropdown" style when mouse is over it*/
-.dropdown li:hover {
-  background-color: #178FD6;
+.dropdown li a:hover {
+  color:#ffa500;
 }
 
 /*declaration all class name "dropdown" that are decendents of the calss "services" where mouse is over it */
@@ -170,13 +171,18 @@ input[type=checkbox]{
   user-select: none; /*this is so the user won't be able to select*/
 }
 
+.hamburger:hover{
+  color:#ffa500;
+  transition: 0.3s ease;
+}
+
 /*This is a Media block. The media query  will be applied to any device that has a window browser size of 1024px or smaller (Tablets, Ipads, Mobile Phones)*/
 /* Responsive to smaller screens - will have to set hamburger for tablet/ipad size screens as well.*/
 @media (max-width: 1024px){
   .menu{ 
       display:none;
       position: absolute;
-      background-color:#034488;
+      background-color:#333333;
       right: 0;
       left: 0;
       text-align: center;
@@ -184,10 +190,10 @@ input[type=checkbox]{
   }
 
   /*declaration for list child of class "menu" style when mouse is over it*/
-  .menu li:hover{
+  .menu li a:hover{
       display: inline-block;
-      background-color:#178FD6;
-      transition: 0.5s ease;
+      color:#ffa500;
+      transition: 0.3s ease;
   }
 
   /*declaration for all list child of class "menu"*/
@@ -209,9 +215,16 @@ input[type=checkbox]{
       display: block;
   }
 
+  /*This is for setting location for dropdown menu*/
+  .dropdown {
+    left: 45%;
+    top: 25px;
+    transform: translateX(35%);
+  }
+
   /*declaration for list child of class "dropdown" style when mouse is over it*/
-  .dropdown li:hover{
-      background-color: #178FD6;
+  .dropdown li a:hover{
+      color: #ffa500;
   }
 }
 /*End JPowell 11/22/2021 Navigation Bar Style*/
