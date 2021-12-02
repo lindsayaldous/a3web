@@ -18,7 +18,7 @@
 ### Template Components
 - [X] < head > - Praveen
 - [X] < navbar > - Janelli
-- [X] < header > - Lindsay
+- [X] < header > - Lindsay  --- going to pick a new image that better suits the new colour scheme, text colour/effects will be adjusted too
 - [X] < main > - Sneha
 - [X] < footer > - Visakh
 
