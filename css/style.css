@@ -398,6 +398,48 @@ input[type=checkbox]{
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 }
 
+/* Meet the Team*/
+
+.team .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:2rem;
+}
+
+.team .box-container .box{
+  flex:1 1 30rem;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+}
+
+.team .box-container .box img{
+  height: 25rem;
+  width:100%;
+  object-fit: cover;
+}
+
+.team .box-container .box .content{
+  padding:2rem;
+}
+
+.team .box-container .box .content h3{
+  font-size:2rem;
+  color:#333;
+}
+
+.team .box-container .box .content h3 i{
+  color:var(--orange);
+}
+
+.team .box-container .box .content p{
+  font-size:1.7rem;
+  color:#666;
+  padding:1rem 0;
+}
+
+/* Team section ends*/
+
 /*end Sneha's css - she'll be repositioning this later */
 
  /* footer section ends */
