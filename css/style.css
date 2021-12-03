@@ -96,7 +96,7 @@ Ivory #FFFCF6
 
 /* Dropdown Menu Style */
 /*Setting the "service menu" to "relative" to reserve the space for the dropdown list*/
-.services{
+.navservices{
   position: relative; 
 }
 
@@ -128,8 +128,8 @@ Ivory #FFFCF6
   color:#ffa500;
 }
 
-/*declaration all class name "dropdown" that are decendents of the calss "services" where mouse is over it */
-.services:hover .dropdown {
+/*declaration all class name "dropdown" that are decendents of the calss "navservices" where mouse is over it */
+.navservices:hover .dropdown {
   display: block;
 }
 
