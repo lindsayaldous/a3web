@@ -86,28 +86,40 @@
                         <h3>Modelling and Analysis</h3>
                         <p>If you have a complicated geoprocessing workflow or you want to be able to easily 
                             repeat an analysis using different data or parameters, a model is the way to go. 
-                            We design custom tools...to be continued.</p>
+                            We design custom tools...to be continued.
+                        </p>
                     </div>
                 </div>
                 <div class="box">
                     <img src="images/overlay.png" alt="">
                     <div class="content">
                         <h3>Geographic Feature Overlay</h3>
-                        <p>From clipping features to creating contours...to be continued.</p>
+                        <p>Visvual analysis is performed in many ways and one way that G15 specializes in is the overlaying
+                             of data layers on top of one another in order to more effectiveyl see the impacts of multiple data 
+                             sets on an area or to enhance a map for visual impact.  With an eye for detail and analysis our Team 
+                             is able to discern fine details and trends that impact an area and are relevant to the clients needs.</p>
                     </div>
                 </div>
                 <div class="box">
                     <img src="images/select.png" alt="">
                     <div class="content">
                         <h3>Feature Selection and Analysis</h3>
-                        <p>No job is too be or too small...to be continued.</p>
+                        <p>Data analysis is the one of the core parts of the GIS industry as it pulls out all the meaning to the terabytes of data floating around
+                            us.  Here at G15 services we have systems and setups that can automatically analize large amounts of data in a live
+                            scenario or we can also take a more manual approach to the analysis.  Complicated algorithms and a high understanding 
+                            of the industry will allow us to bring levels of comprehension and insight to the data that were previously not seen or
+                            accounted for.
+                        </p>
                     </div>
                 </div>
                 <div class="box">
                     <img src="images/topology.png" alt="">
                     <div class="content">
                         <h3>Topology Processing</h3>
-                        <p>From Topological rules, error inspection, and fixing errors...to be continued.</p>
+                        <p>We will review, clean, and construct the topological data.  Our past years of experience in the GIS industry
+                            have exposed us to many different data models and we have developed the skillsets to deal with each once 
+                            and make sure the topological data is accurate and precise.
+                        </p>
                     </div>
                 </div>
                 <div class="box">
@@ -117,14 +129,20 @@
                         <p>With the large amount of geo-graphical data at our expose, it is always wise to go for data conversion 
                             rather than recreating it.Incompatible information formats are a big issue while transferring data among different applications. 
                             With G15 conversion services, we ensure that these issues are rectified completely and the end user 
-                            efficiently translates data in almost any software solutions.</p>
+                            gets their data into almost any software solutions.
+                        </p>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="images/gis.png" alt="">
+                    <img src="images/fme.png" alt="">
                     <div class="content">
-                        <h3>FME Data Integration</h3>
-                        <p>We're headed to FME...to be continued</p>
+                        <h3>Data Integration</h3>
+                        <p>Our data integration services provides the interconnetivity of various systems and their data.
+                            Combined with our other services, this will ensure data gets to where it needs to and is able to traverse
+                            all systems efficiently.  Automated and manual data integration services are both offered and will depend on
+                            the requirements of the business process and what would be the best solution.  Integration of geoprocessing tools
+                            and processes allows for automated scripts to do analysis and changes in a secure and reliable environment.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -136,85 +154,6 @@
         <!-- hyperlinks -->
         <!-- disclaimer -->
     </footer>
-
-    <script>
-        function initComparisons() {
-          var x, i;
-          /*find all elements with an "overlay" class:*/
-          x = document.getElementsByClassName("img-comp-overlay");
-          for (i = 0; i < x.length; i++) {
-            /*once for each "overlay" element:
-            pass the "overlay" element as a parameter when executing the compareImages function:*/
-            compareImages(x[i]);
-          }
-          function compareImages(img) {
-            var slider, img, clicked = 0, w, h;
-            /*get the width and height of the img element*/
-            w = img.offsetWidth;
-            h = img.offsetHeight;
-            /*set the width of the img element to 50%:*/
-            img.style.width = (w / 2) + "px";
-            /*create slider:*/
-            slider = document.createElement("DIV");
-            slider.setAttribute("class", "img-comp-slider");
-            /*insert slider*/
-            img.parentElement.insertBefore(slider, img);
-            /*position the slider in the middle:*/
-            slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
-            slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
-            /*execute a function when the mouse button is pressed:*/
-            slider.addEventListener("mousedown", slideReady);
-            /*and another function when the mouse button is released:*/
-            window.addEventListener("mouseup", slideFinish);
-            /*or touched (for touch screens:*/
-            slider.addEventListener("touchstart", slideReady);
-            /*and released (for touch screens:*/
-            window.addEventListener("touchend", slideFinish);
-            function slideReady(e) {
-              /*prevent any other actions that may occur when moving over the image:*/
-              e.preventDefault();
-              /*the slider is now clicked and ready to move:*/
-              clicked = 1;
-              /*execute a function when the slider is moved:*/
-              window.addEventListener("mousemove", slideMove);
-              window.addEventListener("touchmove", slideMove);
-            }
-            function slideFinish() {
-              /*the slider is no longer clicked:*/
-              clicked = 0;
-            }
-            function slideMove(e) {
-              var pos;
-              /*if the slider is no longer clicked, exit this function:*/
-              if (clicked == 0) return false;
-              /*get the cursor's x position:*/
-              pos = getCursorPos(e)
-              /*prevent the slider from being positioned outside the image:*/
-              if (pos < 0) pos = 0;
-              if (pos > w) pos = w;
-              /*execute a function that will resize the overlay image according to the cursor:*/
-              slide(pos);
-            }
-            function getCursorPos(e) {
-              var a, x = 0;
-              e = (e.changedTouches) ? e.changedTouches[0] : e;
-              /*get the x positions of the image:*/
-              a = img.getBoundingClientRect();
-              /*calculate the cursor's x coordinate, relative to the image:*/
-              x = e.pageX - a.left;
-              /*consider any page scrolling:*/
-              x = x - window.pageXOffset;
-              return x;
-            }
-            function slide(x) {
-              /*resize the image:*/
-              img.style.width = x + "px";
-              /*position the slider:*/
-              slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
-            }
-          }
-        }
-        </script>
 </body>
 
 </html>
