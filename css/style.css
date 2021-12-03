@@ -448,7 +448,7 @@ input[type=checkbox]{
  
 /* ******************************************************************************************* */
 /* Cartography page - description of service + slide deck of examples of work
-Last modified 2 Dec 2021 by L. Aldous                !!! Major WIP !!!  
+Last modified 3 Dec 2021 by L. Aldous
 Considered improving on the image gallery from Assignment 2 with adjustments to accommodate 
 more varied images, but decided to try w3 schools responsive image slider to better showcase
 the maps and work in a JS component (hopefully) */
@@ -456,39 +456,39 @@ the maps and work in a JS component (hopefully) */
 /* removed the fade component */
 
 /* remaining tasks with this one:
-      - pick images, determine optimal size, resize, set IDs, add to images folder 
-      - finish adjusting operational CSS, read about/adjust the JS? also add to the separate JS file*/
+    - move JS to separate file      */
 
 p.carto {
-  padding-top: 50px;
   font-size: 16px;
-}
-
-.cartoImage {
-    height: 100%;
-    width: 100%
-}
-
-/* Currently, this CSS is mostly the out-of-the-box stuff from w3 schools with the beginnings
-of my edits */
-
-/* * {box-sizing:border-box} */       /* removing this one seems to do nothing bad */
-
-/* Slideshow container */
-.carto-slideshow-container {
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #666;
+  }
+  
+  .cartoImage {
+      height: 100%;
+      width: 100%
+  }
+  
+  /* Currently, this CSS is mostly the out-of-the-box stuff from w3 schools with several
+  sections removed and some of my edits */
+  
+  /* Slideshow container */
+  .carto-slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
   padding-bottom: 50px;     /* added this so the <br> could be removed */
-}
-
-/* Hide the images by default */         /* why is this a thing? I can't figure out how to work around it? */
-.mySlides {
+  }
+  
+  /* Hide the images by default */         /* why is this a thing? I still can't figure out how to work around it? */
+  .mySlides {
   display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -501,37 +501,36 @@ of my edits */
   transition: 0.6s ease;  /* what does ease mean? transition? */
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
-
+  }
+  
   /* Position the "next button" to the right */
   .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+      right: 0;
+      border-radius: 3px 0 0 3px;
   }
-
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
+  
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
       background-color: #333;
-    }
-
-/* Caption text */
-.cartoCaption {
+      }
+  
+  /* Caption text */
+  .cartoCaption {
   color: #333;
   font-family: verdana;
   font-size: 14px;
   padding: 8px 12px;
-  position: absolute;   /* what's this mean? */
+  position: absolute;   /* what does this mean again? */
   width: 100%;
   text-align: center;
-  /* font-weight: bold; */
-}
-
-/* The dots/bullets/indicators */
-.dotSelector {
-    text-align: center;
-    padding-bottom: 30px;
-}
-.dot {
+  }
+  
+  /* The dots/bullets/indicators */
+  .dotSelector {
+      text-align: center;
+      padding-bottom: 30px;
+  }
+  .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -539,13 +538,12 @@ of my edits */
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
   text-align: center
-}
-
-.active, .dot:hover {
+  }
+  
+  .active, .dot:hover {
   background-color: #717171;
-}
-
-/* End of Cartography page */
-/* ******************************************************************************************* */
+  }
+  
+  /* End of Cartography page */
+  /* ******************************************************************************************* */
