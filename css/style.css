@@ -106,7 +106,7 @@ Ivory #FFFCF6
   padding: 1em 0;
   position: absolute; /*The element is positioned relative to service menu*/
   display: none; /*This is to hind the dropdown menu (: */
-  border-radius: 10px; /*rounded corners*/
+  border-radius: 8px; /*rounded corners*/
   top: 30px;
   font-size: 14px;
 }
