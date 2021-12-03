@@ -227,7 +227,7 @@ input[type=checkbox]{
     font-size: 5rem;
     background-color: #6a6af5;
     background-size: 100%;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text;          /* anyone else seeing the warning underlines for this and the next line? */
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -256,7 +256,7 @@ input[type=checkbox]{
 
 .main__btn a:hover {
     color: black;
-    backgroud: white;
+    background: white;
 }
 
 .main__img--container {
@@ -286,6 +286,8 @@ input[type=checkbox]{
 }
  
 /* Main Section Ends */
+
+/* ******************************************************************************************* */
 
 /* footer section */
 
