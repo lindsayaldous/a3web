@@ -372,8 +372,9 @@ input[type=checkbox]{
 .services .box-container .box{
   flex: 1 1 30rem;
   border-radius: .5rem;
-  padding:1rem;
+  padding:1.5rem; /*modified by: Janelli Powell I'm increasing the padding from 1rem to 1.5rem so there's more gap on top and won't look as crowded*/
   text-align: center;
+  padding-top: 100px; /*modified by: Janelli Powell I'm adding this so there's more gap on around each block and won't look as crowded*/
 }
 
 .services .box-container .box i{
@@ -383,12 +384,12 @@ input[type=checkbox]{
 }
 
 .services .box-container .box h3{
-  font-size: 2rem;
+  font-size: 2rem; /*modified by: Janelli Powell I've reduced the font size from 2.5rem to 2rem - same as below.*/
   color:#333;
 }
 
 .services .box-container .box p{
-  font-size: 1rem;
+  font-size: 1rem;/*modified by: Janelli Powell I've reduced the font size from 1.5rem to 1rem - what is rem unit again?*/
   color:#666;
   padding:1rem 0;
 }
