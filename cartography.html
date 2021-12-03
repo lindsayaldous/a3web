@@ -2,20 +2,20 @@
 
 
 <!-- Group 15: Sneha Mohan, Janelli Powell, Praveen Mohan, Visakh Vijayan, Lindsay Aldous -->
-<!-- last modified 2 December 2021 by L. Aldous -->
+<!-- last modified 3 December 2021 by L. Aldous -->
 
 <html lang="en">
 
 <head>
     <!-- Praveen Time: 13:38-->
-    <title>Cartography</title>
+    <title>G15 Consulting Group</title>
 
-    <!--company logo as icon-->
+    <!-- (find a different icon, if time)-->
     <link rel="icon" href="https://raw.githubusercontent.com/lindsayaldous/a3web/main/images/logo.png">
 
     <!-- The link to the external CSS, based on
     https://www.w3schools.com/html/html_css.asp -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Dec3.css">
     
     <!-- everyone will contribute a small piece -->
     <script src="scripts.js"> </script>
@@ -77,13 +77,12 @@
            <div class="menu">
                <li><a href = "index.html">About Us</a></li>
                <li><a href = "team.html">Meet the Team</a></li>
-               <li class="navservices">
-                   <a href="#">Services</a>
+               <li class="services">
+                   <a href="services.html">Services</a>
                    <!--Dropdown Menu-->
                    <ul class="dropdown">
                    <li><a href="geoprocessing.html">Geoprocessing</a></li>
                    <li><a href="cartography.html">Cartography</a></li>
-		   <li><a href="spatialAnalysis.html">SpatialAnalysis</a></li>
                    <li><a href="imgAnalysis.html">Image Analysis</a></li>
                    </ul>
                </li>
@@ -94,13 +93,8 @@
    </nav>
    <!--end Jpowell 11/22/2021 -->
 	
-    <main> <!-- Sneha Mohan (11/19/2021) - main and css properties (font family, margins, etc.) and JS/jQuery component to apply effects TBD -->
-        <!-- this section of cartography.html assigned to Lindsay -->
-        <!-- last modified 2 Dec 2021 -->
-        <!-- brief description of service -->
-        <!-- Simple, clean maps...? Not much to promote -->
-        <!-- (maps for use by council/committees)-->
-        <!-- don't forget to re-size images in windows viewer + set the new native resolution -->
+    <main>  <!-- this section of cartography.html assigned to Lindsay -->
+            <!-- last modified 3 Dec 2021 -->
 
         <section class="services">
 
@@ -118,17 +112,19 @@
                 <span>Y</span>
             </h1>
 
-        <div class="main">             <!-- will be updating this section with more correct class soon - might not need the main?? -->
+        <div class="main">
 
             <div class="main__content">
-              <p class = "carto">Some kind of brief description of the service? simple, clean maps...? 
-                not much to promote... ? </p>
-              <h2>Past Examples of Projects</h2>
+              <p class = "carto">We provide clean, simple maps for use in reports, presentations, and on websites.
+                  Maps can be designed for any scale, and for traditional printing or as interactive web maps.
+                  Click one of the grey dots below to view some examples of our completed projects. </p>
             </div>
 
-            <!-- out of the box HTML for the 1st attempt slider -->
-
-            <!-- The dots/circles -->
+            <!-- The image slideshow concept was inspired by a w3 schools tutorial - the original HTML for this page
+            was pulled from that tutorial in its out-of-box form, and has been adjusted to remove some unnecessary
+            complexity and to better suit our purpose -->
+            
+            <!-- The dots to move between maps in any order -->
             <div class="dotSelector">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
@@ -136,61 +132,53 @@
             <span class="dot" onclick="currentSlide(4)"></span>
             <span class="dot" onclick="currentSlide(5)"></span>
             <span class="dot" onclick="currentSlide(6)"></span>
-            <!-- <span class="dot" onclick="currentSlide(7)"></span> -->
             </div> 
-
-            <!-- <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            </div>  -->
 
             <!-- Slideshow container -->
             <div class="carto-slideshow-container">
 
-                <!-- Full-width images with number and caption text -->
-
+                <!-- The images and captions -->
                 <div class="mySlides">
                 <img src="images/cartography/GVITF3 Qualitative Color Layout 24K_1.png" class="cartoImage">
-                <div class="cartoCaption">longer example of what caption text might look 
-                    like once I've actually finalized the map choices and written the 
-                    text that will go here</div>
+                <div class="cartoCaption">A 34" x 44" reference map created to display the land use 
+                    patterns of Sault Ste. Marie, Ontario.</div>
                 </div>
 
-                <div class="mySlides">              <!-- might be able to get rid of the fade, not a fan -->
-                <img src="images/cartography/LAldous_GVITF4_1.png" class="cartoImage">         <!-- if I get the re-sizing right, shouldn't need the 100% ?-->
-                <div class="cartoCaption">Caption Text</div>
+                <div class="mySlides">
+                <img src="images/cartography/LAldous_GVITF4_1.png" class="cartoImage">
+                <div class="cartoCaption">A small-scale map designed to demonstrate the distribution
+                    of remaining wooded areas across the Grey-Bruce region of Ontario.</div>
                 </div>
             
                 <div class="mySlides">
                 <img src="images/cartography/KTA_copy_without_labels_1.png" class="cartoImage">
-                <div class="cartoCaption">Caption Three</div>
+                <div class="cartoCaption">A reference trail map designed for the public and trail association
+                    volunteers alike to print and carry while exploring or maintaining the trail network.</div>
                 </div>
                     
                 <div class="mySlides">
                 <img src="images/cartography/StationBeachParkingSignsMap_1.png" class="cartoImage">
-                <div class="cartoCaption">Caption Four</div>
+                <div class="cartoCaption">A map created to support a clerk's report to a municipal council
+                    about recommended amendments to the parking by-law of a popular beach.</div>
                 </div>
-
-                <!-- <div class="mySlides">
-                <img src="images/cartography/MunicipalityofKincardineWardMap_Draft_2.png" class="cartoImage">
-                <div class="cartoCaption">Caption Four</div>
-                </div> -->
 
                 <div class="mySlides">
                 <img src="images/cartography/WasteReceptacles2021_1.png" class="cartoImage">
-                <div class="cartoCaption">Caption Four</div>
+                <div class="cartoCaption">A map designed for an environmental committee meeting to demonstrate 
+                    the approximate distribution of waste receptacles across the main settlements of a lower-tier 
+                    municipality.</div>
                 </div>
 
                 <div class="mySlides">
                 <img src="images/cartography/SoilMap.jpg" class="cartoImage">
-                <div class="cartoCaption">Caption Four</div>
+                <div class="cartoCaption">A simple map designed to accompany a soil erosion report for a 
+                    private land-owner.</div>
                 </div>
 
-                <!-- Next and previous buttons -->
+                <!-- Next and previous buttons to allow the user to move between maps in sequence -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
             </div>
             
         </section>
@@ -198,12 +186,6 @@
         </div>
         
      </main>
-
-
-
-
-
-
 
 <!--Main section Ends-->
 
