@@ -507,28 +507,24 @@ input[type=checkbox]{
  
 /* ******************************************************************************************* */
 /* Cartography page - description of service + slide deck of examples of work
-Last modified 3 Dec 2021 by L. Aldous
+Last modified 5 Dec 2021 by L. Aldous
 Considered improving on the image gallery from Assignment 2 with adjustments to accommodate 
 more varied images, but decided to try w3 schools responsive image slider to better showcase
-the maps and work in a JS component (hopefully) */
+the maps and work in a JS component */
 /* https://www.w3schools.com/howto/howto_js_slideshow.asp */
 /* removed the fade component */
-
-/* remaining tasks with this one:
-    - move JS to separate file      */
 
 p.carto {
   font-size: 16px;
   padding-top: 50px;
   color: #666;
   }
-  
   .cartoImage {
       height: 100%;
       width: 100%
   }
   
-  /* Currently, this CSS is mostly the out-of-the-box stuff from w3 schools with several
+  /* This CSS began as the out-of-the-box stuff from w3schools and now has several
   sections removed and some of my edits */
   
   /* Slideshow container */
@@ -539,7 +535,8 @@ p.carto {
   padding-bottom: 50px;     /* added this so the <br> could be removed */
   }
   
-  /* Hide the images by default */         /* why is this a thing? I still can't figure out how to work around it? */
+  /* Hide the images by default - I wanted to show the first image by default,
+  but I couldn't find a way to get the JS to co-operate with that idea */
   .ourSlides {
   display: none;
   }
@@ -555,7 +552,6 @@ p.carto {
   color: #6a6af5;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;  /* what does ease mean? transition? */
   border-radius: 0 3px 3px 0;
   user-select: none;
   }
@@ -565,7 +561,6 @@ p.carto {
       right: 0;
       border-radius: 3px 0 0 3px;
   }
-  
       /* On hover, add a black background color with a little bit see-through */
       .prev:hover, .next:hover {
       background-color: #333;
@@ -577,7 +572,7 @@ p.carto {
   font-family: verdana;
   font-size: 14px;
   padding: 8px 12px;
-  position: absolute;   /* what does this mean again? */
+  position: absolute;
   width: 100%;
   text-align: center;
   }
@@ -597,7 +592,6 @@ p.carto {
   display: inline-block;
   text-align: center
   }
-  
   .active, .dot:hover {
   background-color: #717171;
   }
