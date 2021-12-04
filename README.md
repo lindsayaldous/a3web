@@ -18,7 +18,7 @@
 ### Template Components
 - [X] < head > - Praveen
 - [X] < navbar > - Janelli
-- [X] < header > - Lindsay (removing the header, looks nicer without it)
+- [X] < header > - Lindsay (removing the header, looks nicer without it - switching to JS component instead)
 - [X] < main > - Sneha
 - [X] < footer > - Visakh
 
