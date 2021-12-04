@@ -520,8 +520,6 @@ the maps and work in a JS component (hopefully) */
 p.carto {
   font-size: 16px;
   padding-top: 50px;
-  padding-left: 150px;
-  padding-right: 150px;
   color: #666;
   }
   
@@ -542,7 +540,7 @@ p.carto {
   }
   
   /* Hide the images by default */         /* why is this a thing? I still can't figure out how to work around it? */
-  .mySlides {
+  .ourSlides {
   display: none;
   }
   

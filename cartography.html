@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 
-
 <!-- Group 15: Sneha Mohan, Janelli Powell, Praveen Mohan, Visakh Vijayan, Lindsay Aldous -->
-<!-- last modified 3 December 2021 by L. Aldous -->
+<!-- last modified 5 December 2021 by L. Aldous -->
 
 <html lang="en">
 
@@ -10,15 +9,17 @@
     <!-- Praveen Time: 13:38-->
     <title>G15 Consulting Group</title>
 
-    <!-- (find a different icon, if time)-->
+    <!-- company logo as icon -->
     <link rel="icon" href="https://raw.githubusercontent.com/lindsayaldous/a3web/main/images/logo.png">
 
     <!-- The link to the external CSS, based on
     https://www.w3schools.com/html/html_css.asp -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Dec4.css">
     
-    <!-- everyone will contribute a small piece -->
-    <script src="scripts.js"> </script>
+    <!-- JS component comes from slideshow on cartography page
+    adding out-of-the-box JS from w3 schools for first attempt at image slider 
+    https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+    <script src="js/script.js"> </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
 
     <!-- start JPowell 11/22/2021 -->
@@ -27,41 +28,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- end JPowell 11/22/2021 -->
 
-    <!-- adding out-of-the-box JS from w3 schools for first attempt at image slider -->
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        // Next/previous controls
-        function plusSlides(n) {
-        showSlides(slideIndex += n);
-        }
-
-        // Thumbnail image controls
-        function currentSlide(n) {
-        showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        } 
-    </script>
-
 </head>
 
-    
 <body>
 
     <!-- start Jpowell November 18th 1:36PM - also navbar css properties (hover, etc.) and JS/jQuery component to apply effects TBD -->
@@ -77,16 +45,16 @@
            <div class="menu">
                <li><a href = "index.html">About Us</a></li>
                <li><a href = "team.html">Meet the Team</a></li>
-               <li class="navservices">
-                   <a href="#">Services</a>
+               <li class="services">
+                   <a href="services.html">Services</a>
                    <!--Dropdown Menu-->
                    <ul class="dropdown">
                    <li><a href="geoprocessing.html">Geoprocessing</a></li>
                    <li><a href="cartography.html">Cartography</a></li>
-		   <li><a href="spatialAnalysis.html">Spatial Analysis</a></li>	   
                    <li><a href="imgAnalysis.html">Image Analysis</a></li>
                    </ul>
                </li>
+               <li class="nav-item"><a class="nav-link" href = "form.html">Project Proposal Form</a></li>
                <li class="nav-item"><a class="nav-link" href = "contact.html">Contact Us</a></li>
            </div>
          </ul>  
@@ -138,44 +106,45 @@
             <div class="carto-slideshow-container">
 
                 <!-- The images and captions -->
-                <div class="mySlides">
+                <div class="ourSlides">
                 <img src="images/cartography/GVITF3 Qualitative Color Layout 24K_1.png" class="cartoImage">
                 <div class="cartoCaption">A 34" x 44" reference map created to display the land use 
                     patterns of Sault Ste. Marie, Ontario.</div>
                 </div>
 
-                <div class="mySlides">
+                <div class="ourSlides">
                 <img src="images/cartography/LAldous_GVITF4_1.png" class="cartoImage">
                 <div class="cartoCaption">A small-scale map designed to demonstrate the distribution
                     of remaining wooded areas across the Grey-Bruce region of Ontario.</div>
                 </div>
             
-                <div class="mySlides">
+                <div class="ourSlides">
                 <img src="images/cartography/KTA_copy_without_labels_1.png" class="cartoImage">
                 <div class="cartoCaption">A reference trail map designed for the public and trail association
                     volunteers alike to print and carry while exploring or maintaining the trail network.</div>
                 </div>
                     
-                <div class="mySlides">
+                <div class="ourSlides">
                 <img src="images/cartography/StationBeachParkingSignsMap_1.png" class="cartoImage">
                 <div class="cartoCaption">A map created to support a clerk's report to a municipal council
                     about recommended amendments to the parking by-law of a popular beach.</div>
                 </div>
 
-                <div class="mySlides">
+                <div class="ourSlides">
                 <img src="images/cartography/WasteReceptacles2021_1.png" class="cartoImage">
                 <div class="cartoCaption">A map designed for an environmental committee meeting to demonstrate 
                     the approximate distribution of waste receptacles across the main settlements of a lower-tier 
                     municipality.</div>
                 </div>
 
-                <div class="mySlides">
+                <div class="ourSlides">
                 <img src="images/cartography/SoilMap.jpg" class="cartoImage">
                 <div class="cartoCaption">A simple map designed to accompany a soil erosion report for a 
                     private land-owner.</div>
                 </div>
 
                 <!-- Next and previous buttons to allow the user to move between maps in sequence -->
+                <!-- need a better explanation for the specifics - also the purple part -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
