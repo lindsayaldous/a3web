@@ -158,7 +158,8 @@ input[type=checkbox]{
   flex: 1 1 30rem;
   border-radius: .5rem;
   padding:1.5rem; /*modified by: Janelli Powell I'm increasing the padding from 1rem to 1.5rem so there's more gap on top and won't look as crowded*/
-  padding-top: 100px; /*modified by: Janelli Powell I'm adding this so there's more gap on around each block and won't look as crowded*/
+  padding-left: 10%; /*by: Janelli Powell putting some gap on the left side of screen*/
+  padding-right: 10%; /*by: Janelli Powell putting some gap on the right side of screen*/
 }
 
 .testcontainer {
@@ -412,7 +413,11 @@ input[type=checkbox]{
   background:none;
 }
 
- /* Team section ends*/
+ /* Team section starts*/
+ .services{
+  padding-left: 10%; /*by: Janelli Powell putting some gap on the left side of screen*/
+  padding-right: 10%; /*by: Janelli Powell putting some gap on the right side of screen*/
+ }
 
  .services .box-container{
   display: flex;
@@ -450,7 +455,10 @@ input[type=checkbox]{
 }
 
 /* Meet the Team*/ 
-
+.team{
+  padding-left: 10%; /*by: Janelli Powell putting some gap on the left side of screen*/
+  padding-right: 10%; /*by: Janelli Powell putting some gap on the right side of screen*/
+}
 .team .box-container{
   display: flex;
   flex-wrap: wrap;
