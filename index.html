@@ -2,7 +2,7 @@
 
 
 <!-- Group 15: Sneha Mohan, Janelli Powell, Praveen Mohan, Visakh Vijayan, Lindsay Aldous -->
-<!-- last modified 2 Dec 2021 by L. Aldous-->
+<!-- last modified 5 Dec 2021 by L. Aldous-->
 
 <html lang="en">
 
@@ -19,7 +19,8 @@
     
     <!-- JS component comes from slideshow on cartography page  -->
     <script src="js/script.js"> </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+    <!-- might not end up needing this of we don't use jquery? -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script> -->
 
     <!-- start JPowell 11/22/2021 -->
     <meta charset="UTF-8" />
@@ -65,19 +66,23 @@
         <!--Main section-->
 
         <div class="main">
-          <div class="main__container">
-            <div class="main__content">
-              <h2>GIS Mapping Services</h2>
-              <!-- Lindsay will be adding text with description of company, objective, etc. 
-                Probably goes here, before the button? Where should the button link to? Services? 
-                Or switch button text to "Send us a proposal!" and link to Contact Us page -->
-              <button class="main__btn"><a href="/">See what makes us different</a></button>
-            </div>
-            <div class="main__img--container">
-              <img src=images/pic1.png alt="pic" id="main__img"/>
+            <div class="main__container">
+              <div class="main__content">
+                <!-- About Us text added by Lindsay on Dec 5 - keeping it very short so the stacking in mobile view
+                doesn't make it un-readable -->
+                <h2>Are you in need of GIS services?</h2>
+                  <p>Our dynamic team of geospatial professionals brings a wide range of
+                      skills to meet all of your needs in the areas of: <br> <br> Geoprocessing
+                      <br> Cartography <br> Spatial Analysis <br> Image Analysis <br> <br>
+                      We look forward to working with you!
+                  </p>
+                <button class="main__btn"><a href="contact.html">Contact Us for a quote</a></button>
+              </div>
+              <div class="main__img--container">
+                <img src=images/pic1.png alt="pic" id="main__img"/>
+              </div>
             </div>
           </div>
-        </div>
 
         <!--start Janelli Powell Pretend Testimonials (: -->
         <section class="testimonials">
@@ -126,7 +131,7 @@
             </div>
             <!--end Janelli Powell Pretend Testimonials (: -->
 
-            <!--adding  Lindsay's pretend testimonials too! this seems like a good place to store them for now:-->
+            <!--adding  Lindsay's pretend testimonials too -->
             <div class="testcontainer">
                 <img src="images/people.png">
                 <p><span>Kevin W.</span>Project Coordinator</p>
@@ -155,7 +160,7 @@
 <section class="footer">
 
     <div class="box-container">
-  
+        
         <div class="box">
             <h3>About Us</h3>
             <p>Group of creative Specialists.....</p>
