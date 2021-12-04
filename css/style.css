@@ -153,6 +153,42 @@ input[type=checkbox]{
   transition: 0.3s ease;
 }
 
+/*This is the style for our pretend testimonial (source: w3schools.com) - trying to blend with Sneha's css*/
+.testimonials{
+  flex: 1 1 30rem;
+  border-radius: .5rem;
+  padding:1.5rem; /*modified by: Janelli Powell I'm increasing the padding from 1rem to 1.5rem so there's more gap on top and won't look as crowded*/
+  padding-top: 100px; /*modified by: Janelli Powell I'm adding this so there's more gap on around each block and won't look as crowded*/
+}
+
+.testcontainer {
+  border: 1px solid #666;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 25px 0;
+  color:#666;
+}
+
+.testcontainer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.testcontainer img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+  width:90px;
+}
+
+.testcontainer span {
+  font-size: 20px;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
 /*This is a Media block. The media query  will be applied to any device that has a window browser size of 1024px or smaller (Tablets, Ipads, Mobile Phones)*/
 /* Responsive to smaller screens - will have to set hamburger for tablet/ipad size screens as well.*/
 @media (max-width: 1024px){
@@ -203,7 +239,21 @@ input[type=checkbox]{
   .dropdown li a:hover{
       color: #ffa500;
   }
+
+  /*declaration for our pretend testimonials*/
+  .testcontainer {
+    text-align: center;
+    color:#666;
+  }
+  .testcontainer img {
+      margin: auto;
+      float: none;
+      display: block;
+      width:90px;
+      box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  }
 }
+
 /*End JPowell 11/22/2021 Navigation Bar Style*/
 /********************************************************************************************************/
 
