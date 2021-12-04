@@ -515,76 +515,76 @@ Considered improving on the image gallery from Assignment 2 with adjustments to 
 more varied images, but decided to try w3 schools responsive image slider to better showcase
 the maps and work in a JS component */
 /* https://www.w3schools.com/howto/howto_js_slideshow.asp */
-/* removed the fade component, page numbers, repositioned caption */
+/* removed the fade component */
 
 p.carto {
-  font-size: 16px;
-  padding-top: 50px;
-  color: #666;
-  }
-  .cartoImage {
-      height: 100%;
-      width: 100%
-  }
-  
-  /* This CSS began as the out-of-the-box stuff from w3schools and now has several
-  sections removed and some of my edits */
-  
-  /* Slideshow container */
-  .carto-slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  padding-bottom: 50px;     /* added this so the <br> could be removed */
-  }
-  
-  /* Hide the images by default - I wanted to show the first image by default,
-  but I couldn't find a way to get the JS to co-operate with that idea */
-  .ourSlides {
-  display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: #6a6af5;
-  font-weight: bold;
-  font-size: 18px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
+font-size: 16px;
+padding-top: 50px;
+color: #666;
+}
+.cartoImage {
+  height: 100%;
+  width: 100%
+}
+
+/* This CSS began as the out-of-the-box stuff from w3schools and now has several
+sections removed that didn't seen necessary, and some minor additions */
+
+/* Slideshow container */
+.carto-slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+padding-bottom: 50px;     /* added this so the <br> could be removed */
+}
+
+/* Hide the images by default - I wanted to show the first image by default,
+but I couldn't find a way to get the JS to co-operate with that idea */
+.ourSlides {
+display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;        /*shows the cursor that indicates a clickable-item */
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: #6a6af5;
+font-weight: bold;
+font-size: 18px;
+}
+  /* Position the "next" to the right and the "prev" button to the left*/
   .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
+  right: 0;
   }
-      /* On hover, add a black background color with a little bit see-through */
-      .prev:hover, .next:hover {
-      background-color: #333;
-      }
-  
-  /* Caption text */
-  .cartoCaption {
-  color: #333;
-  font-family: verdana;
-  font-size: 14px;
-  padding: 8px 12px;
-  position: absolute;
-  width: 100%;
-  text-align: center;
+  .prev {
+  left: 0;
   }
-  
-  /* The dots/bullets/indicators */
-  .dotSelector {
-      text-align: center;
-      padding-bottom: 30px;
-  }
+    /* On hover, add a black background color with some transparency */
+    .prev:hover, .next:hover {
+    background-color: #333;
+    }
+
+/* Caption text */
+.cartoCaption {
+color: #333;
+font-family: verdana;
+font-size: 14px;
+padding: 8px 12px;
+position: absolute;
+width: 100%;
+text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dotSelector {
+text-align: center;
+padding-bottom: 20px;
+padding-top: 20px;
+}
   .dot {
   cursor: pointer;
   height: 15px;
@@ -598,6 +598,6 @@ p.carto {
   .active, .dot:hover {
   background-color: #717171;
   }
-  
-  /* End of Cartography page */
-  /* ******************************************************************************************* */
+
+/* End of Cartography page */
+/* ******************************************************************************************* */
