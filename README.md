@@ -28,7 +28,7 @@
  - [ ] Meet the Team - under each team member, their contact info/LinkedIn - each person provide 1 image (real or fake) for themselves
  - Our Services (brief overview of available services)
     - [ ] Cartography ( + examples of work) - Lindsay
-    - [ ] Image Anaylsis ( + examples of work) - Visakh
+    - [ ] Image Analysis ( + examples of work) - Visakh
     - [ ] Geoprocessing ( + examples of work) - Janelli
     - [ ] Spatial Analysis ( + examples of work) - Sneha
 - [ ] Contact Us - google maps API static map with office locations, links to email, possibly Survey123 form - Praveen
