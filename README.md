@@ -23,22 +23,22 @@
 - [X] < footer > - Visakh
 
 ### Final Submission:
-- [ ] Home Page - About Us
-    - [ ] Testimonials (bottom of home page, in same HTML file) - each person writes up 1 pretend testimonial
- - [ ] Meet the Team - under each team member, their contact info/LinkedIn - each person provide 1 image (real or fake) for themselves
- - Our Services (brief overview of available services)
-    - [ ] Cartography ( + examples of work) - Lindsay
+- [ ] Home Page - About Us - Lindsay
+    - [X] Testimonials (bottom of home page, in same HTML file) - each person writes up 1 pretend testimonial 
+ - [X] Meet the Team - under each team member, their contact info/LinkedIn - each person provide 1 image (real or fake) for themselves
+ - Our Services (brief overview of available services) - Janelli (fix left right padding)
+    - [X] Cartography ( + examples of work) - Lindsay
     - [ ] Image Analysis ( + examples of work) - Visakh
-    - [ ] Geoprocessing ( + examples of work) - Janelli
+    - [X] Geoprocessing ( + examples of work) - Janelli
     - [ ] Spatial Analysis ( + examples of work) - Sneha
-- [ ] Contact Us - google maps API static map with office locations, links to email, possibly Survey123 form - Praveen
+- [ ] Contact Us - google maps API static map with office locations, links to email - Lindsay
 
 ### Misc Tasks Before Final Submission:
 - [ ] Check for spelling errors and consistency in content
 - [ ] Check for relative paths - absolute URLS only allowed for external assets or links
 - [ ] Check for duplicated IDs on a single HTML page
 - [ ] Check for sufficient comments across all pages - name of author, explaining each section, any references used for inspiration, details of what code section does
-- [ ] Check for code consistency (particularly with CSS)
+- [ ] Check for code consistency (particularly with CSS) - Sneha
 - [ ] Check that there are no < style > tags
 - [ ] Run each page through the corresponding HTML/CSS/JS error checker
 - [ ] Ensure each group member is hosting a copy of the final website on their repository
@@ -46,6 +46,6 @@
 ## Deadlines:
 - [X] Submit template by end of Week 12 lab (Nov 25)
 - [X] <b> Complete this updated workload distribution plan ASAP !!! </b>
-- [ ] Finish our assigned content pages by "end of day" Fri Dec 3
+- [X] Finish our assigned content pages by "end of day" Fri Dec 3
 - [ ] Complete shared components + fix any outstanding issues Dec 4 - 6
 - [ ] Submit final website end of day - Dec 8
