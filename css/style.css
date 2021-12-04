@@ -373,6 +373,7 @@ input[type=checkbox]{
   display: block;
   font-size: 1rem;
   padding:.7rem 0;
+  font-family: verdana;
   color:#eee;
 }
 
@@ -394,6 +395,9 @@ input[type=checkbox]{
 .footer .credit span{
   color:var(--orange);
 }
+
+/* footer section ends */
+/* ******************************************************************************************* */
 
 /*start Sneha's css - she'll be repositioning this later*/
 .heading{
@@ -503,8 +507,6 @@ input[type=checkbox]{
 /* Team section ends*/
 
 /*end Sneha's css - she'll be repositioning this later */
-
- /* footer section ends */
  
 /* ******************************************************************************************* */
 /* Cartography page - description of service + slide deck of examples of work
