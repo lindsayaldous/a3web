@@ -186,7 +186,7 @@ input[type=checkbox]{
 .testcontainer span {
   font-size: 20px;
   margin-right: 15px;
-  font-weight: bold; /*this is to emphasize our client's name
+  font-weight: bold; /*this is to emphasize our client's name*/
 }
 
 /*This is a Media block. The media query  will be applied to any device that has a window browser size of 1024px or smaller (Tablets, Ipads, Mobile Phones)*/
