@@ -515,7 +515,7 @@ Considered improving on the image gallery from Assignment 2 with adjustments to 
 more varied images, but decided to try w3 schools responsive image slider to better showcase
 the maps and work in a JS component */
 /* https://www.w3schools.com/howto/howto_js_slideshow.asp */
-/* removed the fade component */
+/* removed the fade component, page numbers, repositioned caption */
 
 p.carto {
   font-size: 16px;
