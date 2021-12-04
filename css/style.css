@@ -163,9 +163,8 @@ input[type=checkbox]{
 }
 
 .testcontainer {
-  border: 1px solid #666;
-  background-color: #eee;
-  border-radius: 5px; /*this makes the corners of the box round - just like Sneha's css*/
+  background-color: rgb(250, 245, 245);
+  border-radius: .5rem; /*this makes the corners of the box round - just like Sneha's css*/
   padding: 10px;
   margin: 25px 0;
   color:#666;
