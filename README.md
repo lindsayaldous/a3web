@@ -13,6 +13,10 @@
 - where/how to incorporate JS
 - internal deadlines for template changes, final copies of webpages, pre-submission checklist
 
+*** meeting before lecture Mon Dec 6 ***
+- run the pages through error checker
+- 
+
 ## Tasks:
 
 ### Template Components
@@ -23,15 +27,15 @@
 - [X] < footer > - Visakh
 
 ### Final Submission:
-- [ ] Home Page - About Us - Lindsay
+- [X] Home Page - About Us - Lindsay will add some text
     - [X] Testimonials (bottom of home page, in same HTML file) - each person writes up 1 pretend testimonial 
- - [X] Meet the Team - under each team member, their contact info/LinkedIn - each person provide 1 image (real or fake) for themselves
+ - [X] Meet the Team - under each team member, their contact info/LinkedIn - each person provide 1 image (real or fake) for themselves, and a linked to their LinkedIn if they want
  - Our Services (brief overview of available services) - Janelli (fix left right padding)
     - [X] Cartography ( + examples of work) - Lindsay
     - [ ] Image Analysis ( + examples of work) - Visakh
     - [X] Geoprocessing ( + examples of work) - Janelli
     - [ ] Spatial Analysis ( + examples of work) - Sneha
-- [ ] Contact Us - google maps API static map with office locations, links to email - Lindsay
+- [X] Contact Us - google maps API static map with office locations, links to email - Lindsay
 
 ### Misc Tasks Before Final Submission:
 - [ ] Check for spelling errors and consistency in content
