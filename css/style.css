@@ -259,6 +259,9 @@ input[type=checkbox]{
 
 
 /*Main section - Sneha Mohan*/
+/*rem unit was used because all the sizes are referenced from the root font size, there is no more need to cover the nesting cases in separate declarations*/
+source: https://www.w3schools.com/cssref/css_units.asp
+
 .main__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -604,7 +607,10 @@ padding-top: 20px;
 /* ******************************************************************************************* */
 
 /* Spatial Analysis Page*/
-
+.mySlides {
+display:none;
+width:100%
+}
 
 
 
