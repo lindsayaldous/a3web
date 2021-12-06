@@ -605,48 +605,7 @@ padding-top: 20px;
 
 /* Spatial Analysis Page*/
 
-/* Image Analysis Page - Visakh*/
-/* ******************************************************************************************* */
-div.gallery {
-  border: 1px solid #ccc;/*adds an border of 1px around the images*/
-}
 
-div.gallery:hover {/*hovers the gallery*/
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-/*makes the gallery adaptive to the current screen size the webpage is being viewed*/
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-/*for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side*/
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-/*screens smaller than 500px, the images will stack vertically 100%*/
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
 
 
 
