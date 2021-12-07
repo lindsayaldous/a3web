@@ -37,8 +37,8 @@ last modified 7 Dec 2021 by L. Aldous*/
 /*declaration for all "navbar" class*/
 .navbar {
   display: flex; /*I prefer flex that grid it's simple but powerful. The flow of the items can be modified easily, you can even reverse them.*/
-  align-items: center;
-  justify-content: space-between;
+  align-items:center;
+  justify-content:space-evenly;
   padding: 20px;
   background-color:#333333; /*This color used to be blue "Santorini", modifying now to match with the footer*/
   color: #fff;
@@ -72,9 +72,11 @@ last modified 7 Dec 2021 by L. Aldous*/
 
 /* Navivation Bar Menu */
 .menu{
-  display: flex; 
-  gap: 1em; /*This will set the row and column gap between the menu list. And oh, 1em is equivalent to 16px*/
+  display:flex;
+  right:0;
+  gap:3em; /*This will set the row and column gap between the menu list. And oh, 1em is equivalent to 16px*/
   font-size: 16px; 
+  float: right;
 }
 
 /*declaration for list of links child of class "menu" style when mouse is over it*/
