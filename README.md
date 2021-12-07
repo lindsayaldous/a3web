@@ -28,8 +28,8 @@
 
 ### Final Submission:
 - [X] Home Page - About Us - Lindsay will add some text
-    - [X] Testimonials (bottom of home page, in same HTML file) - each person writes up 1 pretend testimonial 
- - [X] Meet the Team - under each team member, their contact info/LinkedIn - each person provide 1 image (real or fake) for themselves, and a linked to their LinkedIn if they want
+    - [X] Testimonials (bottom of home page, in same HTML file) - each person writes up 1 pretend testimonial - Janelli  
+ - [X] Meet the Team - under each team member, their contact info/LinkedIn - each person provide 1 image (real or fake) for themselves, and a linked to their LinkedIn if they want - Janelli 
  - Our Services (brief overview of available services) - Janelli (fix left right padding)
     - [X] Cartography ( + examples of work) - Lindsay
     - [X] Image Analysis ( + examples of work) - Visakh
