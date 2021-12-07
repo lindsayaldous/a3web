@@ -275,12 +275,12 @@ input[type=checkbox]{
 .main__content h2 {
     font-size: 5rem;
     padding-bottom: 1.5rem;                 /* added by Lindsay to fix spacing in About Us - if it causes an issue on another page, just let me know! */
-    background-color: #6a6af5;
-    background-size: 100%;
+    color: #6a6af5;
+    /* background-size: 100%; */
     /* -webkit-background-clip: text;          /* anyone else seeing the warning underlines for this and the next line? */
     /* -moz-background-clip: text; */         /* temporarily commenting out these two lines to see what breaks */
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    /* -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; */
 }
 
 .main__btn {
