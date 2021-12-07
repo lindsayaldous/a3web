@@ -13,9 +13,10 @@
 - where/how to incorporate JS
 - internal deadlines for template changes, final copies of webpages, pre-submission checklist
 
-*** meeting Tues Dec 7 ***
+*** meeting 10am EST on Sat Dec 4 ***
+
+*** meeting 2pm EST on Tues Dec 7 ***
 - run the pages through error checker
-- ?
 
 ## Tasks:
 
