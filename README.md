@@ -44,6 +44,7 @@
 - [ ] Check for sufficient comments across all pages - name of author, explaining each section, any references used for inspiration, details of what code section does
 - [ ] Check for code consistency (particularly with CSS) - Sneha
 - [X] Check that there are no < style > tags
+- [ ] Check that every image has alt text attribute
 - [ ] Run each page through the corresponding HTML/CSS/JS error checker
 - [ ] Ensure each group member is hosting a copy of the final website on their repository
 
