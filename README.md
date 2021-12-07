@@ -32,9 +32,9 @@
  - [X] Meet the Team - under each team member, their contact info/LinkedIn - each person provide 1 image (real or fake) for themselves, and a linked to their LinkedIn if they want
  - Our Services (brief overview of available services) - Janelli (fix left right padding)
     - [X] Cartography ( + examples of work) - Lindsay
-    - [ ] Image Analysis ( + examples of work) - Visakh
+    - [X] Image Analysis ( + examples of work) - Visakh
     - [X] Geoprocessing ( + examples of work) - Janelli
-    - [ ] Spatial Analysis ( + examples of work) - Sneha
+    - [X] Spatial Analysis ( + examples of work) - Sneha
 - [X] Contact Us - google maps API static map with office locations, links to email - Lindsay
 
 ### Misc Tasks Before Final Submission:
