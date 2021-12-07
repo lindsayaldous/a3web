@@ -39,7 +39,7 @@ last modified 7 Dec 2021 by L. Aldous*/
   display: flex; /*I prefer flex that grid it's simple but powerful. The flow of the items can be modified easily, you can even reverse them.*/
   align-items:center;
   justify-content:space-evenly;
-  padding: 20px;
+  padding-right: 15px;
   background-color:#333333; /*This color used to be blue "Santorini", modifying now to match with the footer*/
   color: #fff;
   font-family: sans-serif;
