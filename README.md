@@ -13,9 +13,9 @@
 - where/how to incorporate JS
 - internal deadlines for template changes, final copies of webpages, pre-submission checklist
 
-*** meeting before lecture Mon Dec 6 ***
+*** meeting Tues Dec 7 ***
 - run the pages through error checker
-- 
+- ?
 
 ## Tasks:
 
