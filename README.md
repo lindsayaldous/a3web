@@ -40,13 +40,13 @@
     - [X] Geoprocessing ( + examples of work) - Janelli
     - [X] Spatial Analysis ( + examples of work) - Sneha
 - [X] Partners - Name of Partnership companies - Sneha
-- [X] Contact Us - google maps API static map with office locations, pretend email and phone number - Lindsay
+- [X] Contact Us - google maps API static map with office locations, pretend email and Jenny phone number - Lindsay
 
 ### Misc Tasks Before Final Submission:
 - [ ] Check for spelling errors and consistency in content 
 - [X] Check for relative paths - absolute URLS only allowed for external assets or links - Lindsay
 - [X] Check for duplicated IDs on a single HTML page
-- [ ] Check for sufficient comments across all pages - name of author, explaining each section, any references used for inspiration, details of what code section does
+- [ ] Check for sufficient comments across all pages - name of author, explaining each section, any references used for inspiration, details of what code section does - each for their own pages
 - [ ] Check for code consistency (particularly with CSS) - Sneha
 - [X] Check that there are no < style > tags
 - [X] Check that every image has alt text attribute
@@ -56,7 +56,8 @@
 
 ## Deadlines:
 - [X] Submit template by end of Week 12 lab (Nov 25)
-- [X] <b> Complete this updated workload distribution plan ASAP !!! </b>
+- [X] Complete this updated workload distribution plan ASAP !!!
 - [X] Finish our assigned content pages by "end of day" Fri Dec 3
-- [ ] Complete shared components + fix any outstanding issues Dec 4 - 6
-- [ ] Submit final website end of day - Dec 8
+- [X] Complete shared components Dec 4 - 5
+- [ ] Fix any outstanding issues Dec 6 - 7
+- [ ] <b> Submit final website end of day - Dec 8 </b>
