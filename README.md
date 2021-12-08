@@ -58,5 +58,6 @@
 - [X] Submit template by end of Week 12 lab (Nov 25)
 - [X] Complete this updated workload distribution plan ASAP !!!
 - [X] Finish our assigned content pages by "end of day" Fri Dec 3
-- [ ] Complete shared components + fix any outstanding issues Dec 4 - 7
+- [ ] Complete shared components + fix any outstanding issues Dec 4 - 5
+- [ ] Fix any outstanding issues Dec 6 - 7
 - [ ] <b> Submit final website end of day - Dec 8 </b>
