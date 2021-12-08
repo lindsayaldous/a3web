@@ -501,6 +501,11 @@ input[type=checkbox]{
   padding:1rem 0;
 }
 
+.btn {
+  font-size: 25px;
+  color: rgb(19, 12, 12);
+}
+
 /* Team section ends*/
 
 /*end Sneha's css - she'll be repositioning this later */
@@ -604,3 +609,8 @@ padding-top: 20px;
   height: 300px;
   width: 100%;
 }
+
+/*End-Spatial Analysis*/
+
+/* ***************************************************************************************** */
+
