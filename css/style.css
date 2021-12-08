@@ -8,7 +8,6 @@ last modified 7 Dec 2021 by L. Aldous*/
 
  body, html {
     background-color: white;
-    /* necessary attributes for header section */
     height: 100%;
     margin: 0px;
   }
@@ -513,6 +512,7 @@ input[type=checkbox]{
 /* ******************************************************************************************* */
 /* Cartography page - description of service + slide deck of examples of work
 Last modified 5 Dec 2021 by L. Aldous
+
 Considered improving on the image gallery from Assignment 2 with adjustments to accommodate 
 more varied images, but decided to try w3 schools responsive image slider to better showcase
 the maps and work in a JS component */
@@ -605,6 +605,7 @@ padding-top: 20px;
 /* ******************************************************************************************* */
 
 /* Spatial Analysis Page*/
+/*Positioning image*/
 .mySlides {
   height: 300px;
   width: 100%;
@@ -613,4 +614,30 @@ padding-top: 20px;
 /*End-Spatial Analysis*/
 
 /* ***************************************************************************************** */
+
+/*Partners page-Sneha Mohan*/
+/*Some basic positioning to the page*/
+.partner {
+  text-align: center;
+  color:rgb(34, 31, 31);
+}
+.alliances{
+  flex: 1 1 30rem;
+  border-radius: .5rem;
+  padding:1.5rem; 
+  padding-left: 10%; 
+  padding-right: 10%; 
+}
+
+.des {
+  width: 1000px;
+  border: 5px solid rgb(213, 223, 213);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 60px;
+  margin: 50px;
+}
+
+/* Partners page end*/
+
 
