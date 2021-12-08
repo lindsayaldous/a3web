@@ -605,6 +605,7 @@ padding-top: 20px;
 /* ******************************************************************************************* */
 
 /* Spatial Analysis Page*/
+/*Positioning image*/
 .mySlides {
   height: 300px;
   width: 100%;
@@ -615,7 +616,7 @@ padding-top: 20px;
 /* ***************************************************************************************** */
 
 /*Partners page-Sneha Mohan*/
-
+/*Some basic positioning to the page*/
 .partner {
   text-align: center;
   color:rgb(34, 31, 31);
