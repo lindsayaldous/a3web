@@ -46,7 +46,7 @@
 - [ ] Check for spelling errors and consistency in content 
 - [X] Check for relative paths - absolute URLS only allowed for external assets or links - Lindsay
 - [X] Check for duplicated IDs on a single HTML page
-- [ ] Check for sufficient comments across all pages - name of author, explaining each section, any references used for inspiration, details of what code section does
+- [ ] Check for sufficient comments across all pages - name of author, explaining each section, any references used for inspiration, details of what code section does - each for their own pages
 - [ ] Check for code consistency (particularly with CSS) - Sneha
 - [X] Check that there are no < style > tags
 - [X] Check that every image has alt text attribute
