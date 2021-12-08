@@ -6,6 +6,8 @@
 // way to display the images. The idea and original JS was sourced from:
 // https://www.w3schools.com/howto/howto_js_slideshow.asp
 
+// Code "author" (comment author) is Lindsay
+
 // *********************************************************************************************
 
 // This JS provides the navigation controls for the images in the Cartography page slideshow
@@ -56,8 +58,3 @@ slides[slideIndex-1].style.display = "block";
 // Holds the "active" style of the dot for as long as its corresponding image is being displayed
 dots[slideIndex-1].className += " active";
 }
-
-
-
-
-
