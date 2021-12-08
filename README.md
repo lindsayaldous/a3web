@@ -43,13 +43,13 @@
 - [X] Contact Us - google maps API static map with office locations, pretend email and Jenny phone number - Lindsay
 
 ### Misc Tasks Before Final Submission:
-- [X] Check for spelling errors and consistency in content 
+- [X] Check for spelling errors and consistency in content - each for their own pages
 - [X] Check for relative paths - absolute URLS only allowed for external assets or links - Lindsay
 - [X] Check for duplicated IDs on a single HTML page
 - [X] Check for sufficient comments across all pages - name of author, explaining each section, any references used for inspiration, details of what code section does - each for their own pages
 - [X] Check for code consistency (particularly with CSS) - Sneha
 - [X] Check that there are no < style > tags
-- [X] Check that every image has alt text attribute
+- [X] Check that every image has alt text attribute - each for their own pages
 - [X] Run each page through the HTML/CSS error checker
 - [X] Download archived versions of files for safekeeping and clean up repository for submission - Lindsay
 - [ ] Ensure each group member is hosting a copy of the final website on their repository
