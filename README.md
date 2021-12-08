@@ -40,7 +40,7 @@
 
 ### Misc Tasks Before Final Submission:
 - [ ] Check for spelling errors and consistency in content 
-- [ ] Check for relative paths - absolute URLS only allowed for external assets or links
+- [ ] Check for relative paths - absolute URLS only allowed for external assets or links - Lindsay
 - [X] Check for duplicated IDs on a single HTML page
 - [ ] Check for sufficient comments across all pages - name of author, explaining each section, any references used for inspiration, details of what code section does
 - [ ] Check for code consistency (particularly with CSS) - Sneha
