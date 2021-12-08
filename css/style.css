@@ -614,3 +614,28 @@ padding-top: 20px;
 
 /* ***************************************************************************************** */
 
+/*Partner page-Sneha Mohan*/
+
+.partner {
+  text-align: center;
+  color:rgb(34, 31, 31);
+}
+.alliances{
+  flex: 1 1 30rem;
+  border-radius: .5rem;
+  padding:1.5rem; 
+  padding-left: 10%; 
+  padding-right: 10%; 
+}
+
+.des {
+  width: 1000px;
+  border: 5px solid rgb(213, 223, 213);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 60px;
+  margin: 50px;
+}
+
+
+
