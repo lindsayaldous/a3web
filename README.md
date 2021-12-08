@@ -59,5 +59,5 @@
 - [X] Complete this updated workload distribution plan ASAP !!!
 - [X] Finish our assigned content pages by "end of day" Fri Dec 3
 - [X] Complete shared components Dec 4 - 5
-- [ ] Fix any outstanding issues Dec 6 - 7
-- [ ] <b> Submit final website end of day - Dec 8 </b>
+- [X] Fix any outstanding issues Dec 6 - 7
+- [X] <b> Submit final website end of day - Dec 8 </b>
