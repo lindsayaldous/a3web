@@ -46,7 +46,8 @@
 - [ ] Check for code consistency (particularly with CSS) - Sneha
 - [X] Check that there are no < style > tags
 - [ ] Check that every image has alt text attribute
-- [ ] Run each page through the corresponding HTML/CSS/JS error checker
+- [ ] Run each page through the HTML/CSS error checker
+- [X] Download archived versions of files for safekeeping and clean up repository for submission
 - [ ] Ensure each group member is hosting a copy of the final website on their repository
 
 ## Deadlines:
