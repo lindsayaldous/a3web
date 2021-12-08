@@ -43,7 +43,7 @@
 - [X] Contact Us - google maps API static map with office locations, pretend email and Jenny phone number - Lindsay
 
 ### Misc Tasks Before Final Submission:
-- [ ] Check for spelling errors and consistency in content 
+- [X] Check for spelling errors and consistency in content 
 - [X] Check for relative paths - absolute URLS only allowed for external assets or links - Lindsay
 - [X] Check for duplicated IDs on a single HTML page
 - [X] Check for sufficient comments across all pages - name of author, explaining each section, any references used for inspiration, details of what code section does - each for their own pages
