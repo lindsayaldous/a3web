@@ -40,7 +40,7 @@
     - [X] Geoprocessing ( + examples of work) - Janelli
     - [X] Spatial Analysis ( + examples of work) - Sneha
 - [X] Partners - Name of Partnership companies - Sneha
-- [X] Contact Us - google maps API static map with office locations, pretend email and phone number - Lindsay
+- [X] Contact Us - google maps API static map with office locations, pretend email and Jenny phone number - Lindsay
 
 ### Misc Tasks Before Final Submission:
 - [ ] Check for spelling errors and consistency in content 
