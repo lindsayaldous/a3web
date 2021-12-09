@@ -1,5 +1,5 @@
 // Group 15: Sneha Mohan, Janelli Powell, Praveen Mohan, Visakh Vijayan, Lindsay Aldous
-// Last modified 5 December 2021 by L. Aldous
+// Last modified 9 December 2021 by L. Aldous
 
 // We decided to use an image slideshow as our JS component - the examples of our cartography
 // work are very visual products, so this seemed like an appropriate and less overwhelming 
@@ -52,9 +52,25 @@ for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
 }
 
+// Lines 59 and 62 are the original JS from w3schools, but they cause a definition error 
+// when the slideshow is already at index 0 because it can't be decremented below 0
+
 // Displays the current image as a block element
-slides[slideIndex-1].style.display = "block";
+// slides[slideIndex-1].style.display = "block";
 
 // Holds the "active" style of the dot for as long as its corresponding image is being displayed
-dots[slideIndex-1].className += " active";
+// dots[slideIndex-1].className += " active";
+// }
+
+// Technically the program still works as intended with this error, but we've attempted to
+// fix it to avoid penalty. We've opted to set the first "dot" on the page to be a
+// "close the slideshow" control, so it doesn't matter that the first slide doesn't open when it's
+// clicked by the user. There is without a doubt a more elegant way to fix it, but this is where 
+// our very limited understanding of JS has led us
+
+// Displays the current image as a block element
+if (slideIndex > 1) {slides[slideIndex-1].style.display = "block"}
+
+// Holds the "active" style of the dot for as long as its corresponding image is being displayed
+if (slideIndex > 1) {dots[slideIndex-1].className += " active"}
 }
