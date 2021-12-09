@@ -24,37 +24,40 @@
 
 <body>
 
-    <!-- start Janelli Powell November 18th 1:36PM - also navbar css properties (hover, etc.) and JS/jQuery component to apply effects TBD -->
+    <!-- start Jpowell November 18th 1:36PM - also navbar css properties (hover, etc.) -->
     <nav class="navbar">   
         <!-- LOGO -->
        <div class="logo"><a href = "index.html"><img src = "images/logo.png" alt="G15 logo"> Consulting Group</a></div> 
-        <div class="nav-links">
-            <ul class="menu">
-                <!--Navigation Menu-->
+
+        <!--12/09/2021 This whole section is the culprit of the 3 outstanding bugs. 
+        I tried for couple hours fixing it after our evaluation but the more I try to fix it, 
+        the more it breaks. Lesson learned, we should use the validator whenever we apply changes - daily at least 
+        so that we can catch all the bugs as we progress. Will do better next semester, learned a lot.-->
+        <ul class="nav-links">
+            <!--&#9776; is an HTML entity that displays the ☰ (hamburger icon.-->
+            <!--If this hidden checkbox is checked, apply certain style rules-->
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <!--Navigation Menu-->
+            <div class="menu"> 
                 <li><a href = "index.html">About Us</a></li>
                 <li><a href = "team.html">Meet the Team</a></li>
                 <li class="navservices">
                     <a href="#">Services</a>
                     <!--Dropdown Menu-->
                     <ul class="dropdown">
-                    <li><a href="geoprocessing.html">Geoprocessing</a></li>
-                    <li><a href="cartography.html">Cartography</a></li>
+                        <li><a href="geoprocessing.html">Geoprocessing</a></li>
+                        <li><a href="cartography.html">Cartography</a></li>
                         <li><a href="spatialAnalysis.html">Spatial Analysis</a></li>	   
-                    <li><a href="imgAnalysis.html">Image Analysis</a></li>
+                        <li><a href="imgAnalysis.html">Image Analysis</a></li>
                     </ul>
                 </li>
                 <li><a href="Partners.html">Partners</a></li>
                 <li class="nav-item"><a class="nav-link" href = "contact.html">Contact Us</a></li>
-            </ul>  
-            <!--&#9776; is an HTML entity that displays the ☰ (hamburger icon.-->
-            <!--If this hidden checkbox is checked, apply certain style rules-->
-            <div>
-                <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-            </div>
-        </div>
-   </nav>
-   <!--end Janelli Powell 11/22/2021 -->
+           </div>
+        </ul>  
+    </nav>
+    <!--end Jpowell 11/22/2021 -->
 
     <main>
 
